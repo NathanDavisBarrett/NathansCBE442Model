@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-from PyomoTools import MergableModel
+from PyomoTools.MergeableModel import MergableModel
 
 from LinearReactor import Reactor, ReactorParams
 from SEP1 import SEP1, SEP1Params
