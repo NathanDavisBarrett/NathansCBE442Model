@@ -2,8 +2,8 @@ import pyomo.environ as pyo
 
 from PyomoTools import LoadIndexedSet
 
-from .Block import Block, BlockParams
-from .ThermoParameters import ThermoParameters
+from Block import Block, BlockParams
+from ThermoParameters import ThermoParameters
 
 class SEP1Params(BlockParams):
     def NathansFit(self,feed,rec,A,B,C,D,E):

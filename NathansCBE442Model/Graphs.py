@@ -3,7 +3,7 @@ import pyomo.environ as pyo
 import numpy as np
 from scipy.optimize import fsolve
 
-from .System import System, SystemParams
+from System import System, SystemParams
 
 def YearlyExpenses(params:SystemParams,model:System,ax:plt.Axes):
     costNames = "Labor,Overhead,Admin,Dist,R&D,Rent,Insurance,Maint,Materials,Utilities".split(',')

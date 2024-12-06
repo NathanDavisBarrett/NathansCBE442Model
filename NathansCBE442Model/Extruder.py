@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-from .Block import Block,BlockParams
+from Block import Block,BlockParams
 
 class ExtruderParams(BlockParams):
     def _DefineParams(self):

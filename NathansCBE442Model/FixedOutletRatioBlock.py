@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-from .Block import BlockParams, Block
+from Block import BlockParams, Block
 
 class FixedOutletRatioBlockParams(BlockParams):
     def __init__(self,inletStreams:list,outletStreams:list,streamCompositions:dict,utilities:list,outletRatios:dict,sizeFactor,EquipCostParams):

@@ -1,7 +1,7 @@
 import pyomo.environ as pyo
 
-from .FixedOutletRatioBlock import FixedOutletRatioBlockParams, FixedOutletRatioBlock
-from .ThermoParameters import ThermoParameters
+from FixedOutletRatioBlock import FixedOutletRatioBlockParams, FixedOutletRatioBlock
+from ThermoParameters import ThermoParameters
 
 class WaterTreatmentBlockParams(FixedOutletRatioBlockParams):    
     def __init__(self,thermoParams:ThermoParameters):

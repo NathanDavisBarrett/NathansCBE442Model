@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-from .FixedOutletRatioBlock import FixedOutletRatioBlock, FixedOutletRatioBlockParams
+from FixedOutletRatioBlock import FixedOutletRatioBlock, FixedOutletRatioBlockParams
 
 class DecanterParams(FixedOutletRatioBlockParams):
     def _DefineParams(self):

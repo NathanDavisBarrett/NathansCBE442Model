@@ -1,6 +1,6 @@
 import pyomo.environ as pyo
 
-from .Block import BlockParams, Block
+from Block import BlockParams, Block
 
 class SplitterParams(BlockParams):
     def __init__(self,numOutlets,materials:list,maxFlow:float=1e5):

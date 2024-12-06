@@ -2,16 +2,16 @@ import pyomo.environ as pyo
 
 from PyomoTools import MergableModel
 
-from .LinearReactor import Reactor, ReactorParams
-from .SEP1 import SEP1, SEP1Params
-from .Decanter import Decanter, DecanterParams
-from .SEP2 import SEP2, SEP2Params
-from .Extruder import Extruder, ExtruderParams
-from .WaterTreatment_Linear import WaterTreatmentBlockParams, WaterTreatmentBlock
-from .Splitter import SplitterParams,ContinuousSplitter,SelectionSplitter
-from .Combustor_Simple import Combustor, CombustorParams
-from .ThermoParameters import ThermoParameters
-from .Economics import EconomicParams,Economics
+from LinearReactor import Reactor, ReactorParams
+from SEP1 import SEP1, SEP1Params
+from Decanter import Decanter, DecanterParams
+from SEP2 import SEP2, SEP2Params
+from Extruder import Extruder, ExtruderParams
+from WaterTreatment_Linear import WaterTreatmentBlockParams, WaterTreatmentBlock
+from Splitter import SplitterParams,ContinuousSplitter,SelectionSplitter
+from Combustor_Simple import Combustor, CombustorParams
+from ThermoParameters import ThermoParameters
+from Economics import EconomicParams,Economics
 
 class SystemParams:
     def __init__(self):

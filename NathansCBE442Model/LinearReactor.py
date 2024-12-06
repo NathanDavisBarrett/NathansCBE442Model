@@ -1,8 +1,8 @@
 import pyomo.environ as pyo
 import numpy as np
 
-from .FixedOutletRatioBlock import FixedOutletRatioBlock, FixedOutletRatioBlockParams
-from .ThermoParameters import ThermoParameters
+from FixedOutletRatioBlock import FixedOutletRatioBlock, FixedOutletRatioBlockParams
+from ThermoParameters import ThermoParameters
 
 class ReactorParams(FixedOutletRatioBlockParams):
     def __init__(self,thermoParams):

@@ -1,7 +1,7 @@
 import pyomo.environ as pyo
 
-from .Block import BlockParams,Block
-from .ThermoParameters import ThermoParameters
+from Block import BlockParams,Block
+from ThermoParameters import ThermoParameters
 
 class CombustorParams(BlockParams):
     def __init__(self,thermoParams:ThermoParameters):
